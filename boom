@@ -368,7 +368,7 @@ section2:AddSlider({
     Name = "Kill Aura Range", 
     Value = 25, 
     Min = 5, 
-    Max = 500, 
+    Max = 100, 
     Flag = "KAR", 
     Callback = function(value)
         f = value 
@@ -378,7 +378,7 @@ section2:AddSlider({
 section2:AddSlider({
     Name = "Kill Aura Speed", 
     Value = 0.1,
-    Min = 0.1, 
+    Min = 0, 
     Max = 1, 
     Precise = 1, 
     Flag = "KAS", 
